@@ -1,13 +1,28 @@
 .footer {
   font-family: "Lato";
-  padding-bottom: 20px;
+  padding: 20px;
+  position: relative;
+  left: 0;
+  bottom: -100px;
+  width: 100%;
+  background-color: #fff;
+  opacity: 0;
+  transition: all 0.3s ease;
+  z-index: 10;
 }
+
+.footer-visible {
+  bottom: 0;
+  opacity: 1;
+}
+
 .footer__navigation {
   display: flex;
   margin: auto;
   width: fit-content;
   gap: 20px;
 }
+
 .footer__navigation-item {
   font-weight: 400;
   font-size: 14px;

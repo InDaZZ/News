@@ -1,10 +1,30 @@
 import { Link } from "react-router";
 import poweredbyLogo from "../images/NewsApi.svg";
 import "./Footer.css";
+import { useEffect, useState } from "react";
 
 const Footer = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY + window.innerHeight;
+      const documentHeight = document.documentElement.scrollHeight;
+      if (scrollPosition >= documentHeight) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <footer className="footer">
+    <footer className={`footer ${isVisible ? "footer-visible" : ""}`}>
       <nav className="footer__navigation">
         <Link to="#LogIn" className="footer__navigation-item">
           Log In

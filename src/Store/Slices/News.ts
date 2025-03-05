@@ -1,7 +1,6 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { Multimedia, News } from "./types";
 
-// Интерфейс для данных новостей
 const apiKey = process.env.REACT_APP_DEFAULT_API_KEY;
 interface NewsState {
   newsList: { [date: string]: News[] };
