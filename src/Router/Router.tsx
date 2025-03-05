@@ -7,10 +7,11 @@ import Modal from "../Modal/Modal";
 export const AppRouter = () => {
   const router = createBrowserRouter([
     {
+      path: routePaths[EAppRoutes.MAIN],
       element: <Layout key="Layout" />,
       children: [
         {
-          path: routePaths[EAppRoutes.MAIN],
+          path: routePaths[EAppRoutes.NEWS],
           element: [<News key="News" />],
         },
       ],
