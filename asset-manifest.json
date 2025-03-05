@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/News/static/css/main.e0a3a203.css",
-    "main.js": "/News/static/js/main.11de703f.js",
+    "main.js": "/News/static/js/main.03b84ee4.js",
     "static/js/453.ed3810f9.chunk.js": "/News/static/js/453.ed3810f9.chunk.js",
     "static/media/Lato-Bold.woff": "/News/static/media/Lato-Bold.38460a841f9f02bac0ef.woff",
     "static/media/Lato-Regular.woff": "/News/static/media/Lato-Regular.6acc276c61442b364505.woff",
@@ -13,11 +13,11 @@
     "static/media/hamburgerbar-mobile_navigation.svg": "/News/static/media/hamburgerbar-mobile_navigation.c692f1e41496bba8b2b4605ea1794fba.svg",
     "static/media/Vector.svg": "/News/static/media/Vector.a939a61e6978b5bc1e9f.svg",
     "main.e0a3a203.css.map": "/News/static/css/main.e0a3a203.css.map",
-    "main.11de703f.js.map": "/News/static/js/main.11de703f.js.map",
+    "main.03b84ee4.js.map": "/News/static/js/main.03b84ee4.js.map",
     "453.ed3810f9.chunk.js.map": "/News/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0a3a203.css",
-    "static/js/main.11de703f.js"
+    "static/js/main.03b84ee4.js"
   ]
 }
