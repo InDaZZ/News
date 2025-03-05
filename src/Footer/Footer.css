@@ -1,0 +1,36 @@
+.footer {
+  font-family: "Lato";
+  padding-bottom: 20px;
+}
+.footer__navigation {
+  display: flex;
+  margin: auto;
+  width: fit-content;
+  gap: 20px;
+}
+.footer__navigation-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.footer__poweredby {
+  margin: 25px auto 25px;
+  width: fit-content;
+}
+
+.footer__poweredby-title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.footer__info {
+  display: block;
+  width: fit-content;
+  margin: auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+}

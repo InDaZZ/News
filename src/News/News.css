@@ -1,0 +1,20 @@
+.newspage {
+  padding: 21px 20px 22px;
+}
+
+.newspage__date {
+  text-align: start;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.newspage__tape {
+}
+.newspage__loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

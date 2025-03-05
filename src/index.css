@@ -1,0 +1,53 @@
+@import url("./fonts/fonts.css");
+@import "normalize.css";
+
+:root {
+  --grey-light: #ededed;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  text-align: start;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+body {
+  max-width: 768px;
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media (max-width: 768px) {
+}
